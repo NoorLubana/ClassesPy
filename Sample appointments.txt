@@ -1,0 +1,179 @@
+Starting the Appointment Manager System
+Weekly calendar created
+Would you like to load previously scheduled appointments from a file (Y/N)? y
+Enter the filename for scheduled appointments (e.g., appointments.csv): appointment.csv
+
+
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+1) Schedule an appointment
+2) Find appointment by name
+3) Print calendar for a specific day
+4) Cancel an appointment
+9) Exit the system
+Enter your selection:1
+
+** Schedule an appointment **
+What day: Thursday
+Enter start hour (24 hour clock): 11
+Client Name: Steven
+Client Phone: 403-600-6000
+Appointment types
+1: Mens Cut $50, 2: Ladies Cut $80, 3: Mens Colouring $50, 4: Ladies Colouring $120
+Type of Appointment: 1
+OK, Steven's appointment is scheduled!
+
+
+
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+1) Schedule an appointment
+2) Find appointment by name
+3) Print calendar for a specific day
+4) Cancel an appointment
+9) Exit the system
+Enter your selection:3
+
+** Print calendar for a specific day **
+Enter day of week: Toosday
+Client Name          Phone           Day        Start      End        Type
+--------------------------------------------------------------------------------
+
+
+
+** Print calendar for a specific day **
+Enter day of week: tuesday
+Client Name          Phone           Day        Start      End        Type
+--------------------------------------------------------------------------------
+
+** Print calendar for a specific day **
+Appointments for Tuesday
+Client Name          Phone           Day        Start      End        Type
+--------------------------------------------------------------------------------
+                                     Tuesday    09:00      10:00      Available
+                                     Tuesday    10:00      11:00      Available
+                                     Tuesday    11:00      12:00      Available
+                                     Tuesday    12:00      13:00      Available
+                                     Tuesday    13:00      14:00      Available
+                                     Tuesday    14:00      15:00      Available
+                                     Tuesday    15:00      16:00      Available
+                                     Tuesday    16:00      17:00      Available
+
+
+
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+1) Schedule an appointment
+2) Find appointment by name
+3) Print calendar for a specific day
+4) Cancel an appointment
+9) Exit the system
+Enter your selection:3
+
+** Print calendar for a specific day **
+Enter day of week: Thursday
+Client Name          Phone           Day        Start      End        Type
+--------------------------------------------------------------------------------
+
+** Print calendar for a specific day **
+Appointments for Thursday
+Client Name          Phone           Day        Start      End        Type
+--------------------------------------------------------------------------------
+                                     Thursday   09:00      10:00      Available
+                                     Thursday   10:00      11:00      Available
+Steven               403-600-6000    Thursday   11:00      12:00      Mens Cut
+                                     Thursday   12:00      13:00      Available
+Gabriela             368-111-9999    Thursday   13:00      14:00      Ladies Colouring
+                                     Thursday   14:00      15:00      Available
+                                     Thursday   15:00      16:00      Available
+                                     Thursday   16:00      17:00      Available
+
+
+
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+1) Schedule an appointment
+2) Find appointment by name
+3) Print calendar for a specific day
+4) Cancel an appointment
+9) Exit the system
+Enter your selection:2
+
+** Find appointment by name **
+Enter Client Name: ste
+Client Name          Phone           Day        Start      End        Type
+--------------------------------------------------------------------------------
+Steven               403-600-6000    Thursday  11:00 - 12:00 Mens Cut
+Client Name          Phone           Day        Start      End        Type
+--------------------------------------------------------------------------------
+Stephanie            368-999-1111    Saturday  10:00 - 11:00 Ladies Cut
+
+
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+1) Schedule an appointment
+2) Find appointment by name
+3) Print calendar for a specific day
+4) Cancel an appointment
+9) Exit the system
+Enter your selection:4
+
+** Cancel an appointment **
+What day: saturday
+Enter start hour (24 hour clock): 10
+Appointment: Saturday 10:00 - 11:00 for Stephanie has been cancelled!
+
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+1) Schedule an appointment
+2) Find appointment by name
+3) Print calendar for a specific day
+4) Cancel an appointment
+9) Exit the system
+Enter your selection:9
+
+** Exit the system **
+Woould you like to save all scheduled appointment to a file (Y/N) y
+Enter appointment filename: appointment.csv
+3 scheduled appointments have been successfully saved to appointment.csv.
+Exiting the system. Thank you!
+PS C:\Users\pslub\OneDrive\Desktop\Python> 
+
+
+
+
+
+Starting the Appointment Manager System
+Weekly calendar created
+Would you like to load previously scheduled appointments from a file (Y/N)? n
+
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+1) Schedule an appointment
+2) Find appointment by name
+3) Print calendar for a specific day
+4) Cancel an appointment
+9) Exit the system
+Enter your selection:1
+
+** Schedule an appointment **
+What day: Monday
+Enter start hour (24 hour clock): 16
+Client Name: Annabelle
+Client Phone: 403-200-2000
+Appointment types
+1: Mens Cut $50, 2: Ladies Cut $80, 3: Mens Colouring $50, 4: Ladies Colouring $120
+Type of Appointment: 2
+OK, Annabelle's appointment is scheduled!
+
+
+
+
+
